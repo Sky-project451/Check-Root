@@ -1,0 +1,30 @@
+#!/bin/bash
+Nick=`whoami`
+	slp(){
+      sleep 1.3
+	}
+
+		Sky_Check_Root(){
+		clear
+           		if [[ $Nick != "root" ]]; then
+				echo -e '''
+  \e[35m\e[1mmmmm  m    m          mmm  mmmmm
+ #"   " #  m"         m"   " #   "#
+ \e[33m"#mmm  #m#           #      #mmmm"
+     "# #  #m   """   #      #   "m
+ "mmm#" #   "m         "mmm" #    "
+'''
+            			 echo -e " \e[0m[ \e[1m\e[92m+\e[0m ] Checking Your Device \e[32m_\e[93m \e[1m$Nick\e[0m \e[32m_"
+            			 slp
+             			 echo -e $G" \e[0m[ \e[1m\e[91m!\e[0m ] Result _ [- \e[1m\e[31mYour Device is not Rooted\e[0m -] _"
+				 echo -e " \e[92m[\e[0m Powered by : \e[1m#SkYcode | \e[31mSUBSCRIBE \e[0m\e[1mSK - Project:) \e[0m\e[92m]"
+             			exit
+               			else
+                	echo -e $G" \e[0m[ \e[1m\e[92m+\e[0m ]$n Checking Your Device \e[32m_ \e[33m\e[1m$Nick\e[0m\e[32m _\e[0m"
+                	slp
+                	echo -e " [ \e[32m\e[1m✔\e[0m ️] Result _ [+ \e[35m\e[1mYour Device Is Rooted\e[0m +] _"
+			echo -e " \e[92m[\e[0m Powered by : \e[1m#SkYcode | \e[31mSUBSCRIBE \e[0m\e[1mSK - Project:) \e[0m\e[92m]"
+                	fi
+		}
+
+		Sky_Check_Root
