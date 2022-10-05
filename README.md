@@ -1,2 +1,12 @@
 # Check-Root
-Tutorialnya ada di yt SK - Project
+To check Root Permissions on Your device
+
+# How It Works?
+Shell Script Will Check Your Device Do You Have Root Permission Or Not on your Own Device
+
+# How To Use?
+First of all, Allow the Script by Running the Command
+<br>`$ chmod 777 check`
+<br>Then<br>
+`$ ./check`
+
